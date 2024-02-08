@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Learn the Game";
+}
+
+<head>
+    <script src="~/js/site.js"></script>
+</head>
+<h1>@ViewData["Title"]</h1>
+
+<h3>Let me teach you golf</h3>
+<p>Whether you want to play golf at a higher level, or simply want to know more about the sport everyone seems to be talking about, you have come to the right place! Use the calculator below to discover what it would take for me to help you master the game.</p>
+
+<h3>Calculate the cost of lessons:</h3>
+<body>
+    <label for="hours">Number of hours for tutoring:</label>
+    <input type="number" id="hours" min="1" />
+    <br />
+    <label for="rate">Hourly Rate:</label>
+    <input type="text" id="rate" value="$200" readonly />
+    <br />
+    <button id="calculate">Calculate Total</button>
+    <br />
+    <label for="total">Total:</label>
+    <input type="text" id="total" readonly />
+    <br />
+    <a href="~/">Back to Home Page</a>
+</body>
